@@ -1,0 +1,30 @@
+/*colores*/
+$colorCaidim: rgb(247, 42, 6);
+$colorFuente:rgb(235, 229, 229);
+$ColorBody: rgb(180, 26, 26);
+
+
+
+/*fuentes*/
+$fuente-principal: "Roboto", sans-serif;
+$Color_Datos_Cliente:  rgb(235, 229, 229);
+
+/*Medidas*/
+$espaciado: 50px;
+
+/*MIXINS*/
+@mixin flex-column-centrado{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+/*MIXINS con parámetros*/
+@mixin medidasFotos($alto,$ancho){
+hight:$alto;
+with:$ancho;
+}
+
+/*CONDICIONALES*/
+$fiesta: ninguna;
+
